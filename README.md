@@ -1,10 +1,10 @@
 # Async Job
 A C# asynchronous job management.
 
-You need to call some of you methods at specific time or period? Async job do it for you.
+You need to call some of your methods at a specific time or period? Async job will do it for you.
 
 ## How to use
-Create a new class and extend ```AsyncJobBase``` class. Call the ```Run``` method.
+Create a new class and extend ```AsyncJobBase```. Call the ```Run``` method.
 
 1.Extend AsyncJobBase
 
@@ -29,7 +29,7 @@ public class JobOne : AsyncJobBase
 }
 ```
 
-2.Make instance and call ```Run``` method.
+2.Make a new instance and call ```Run``` method.
 
 ```
 JobOne job = new JobOne(5);// Run this job every 5 seconds
